@@ -6,10 +6,13 @@
 ## [WieIchNichtHeisse.de](https://wieichnichtheisse.de)(beta)
 
 WieIchNichtHeisse.de entstand durch einen Tweet von [Oğuz Yılmaz](https://twitter.com/oguz/status/1244634877452070912) und ist ein nicht kommerzielles Communityprojekt, um Menschen zu helfen deren Namen regelmäßig falsch geschrieben werden. 
+Screenshots der Seite findest du im assets Ordner
 
 ## Mithelfen
 
 Falls du mithelfen möchtest, erstelle ein Issue oder einen Pull Request. Ich bin für jede hilfe dankbar! :) 
+Ich brauche noch hilfe beim hosten, das schaffe ich noch nicht.
+
 ## Code of Conduct
 
 Um sicher zu stellen, dass dieses Projekt offen für so viele Menschen wie möglich ist, halte dich bitte an den [Code of Conduct](https://queer-code.org/coc.html) des Queer Codes.
