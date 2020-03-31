@@ -87,9 +87,9 @@
             <form id="nameForm" action="/update-page" method="POST">
                 @csrf
                 <input type="hidden" name="csrfWorks" value="yes">
-                <label for="name">Deine ID:</label><br>
+                <label for="name">Meine ID:</label><br>
                 <input type="text" id="uuid" name="uuid" value=""><br><br>
-                <label for="altname">Mehr Alternative Schreibweisen:</label><br>
+                <label for="altname">Wie andere meinen Namen schrieben:</label><br>
                 <input type="text"  name="altNames[]" value="Jon"><br>
                 <div id="AddInput"></div>
                 <input type="button" id="addField" onClick="addInput();" value="+" /><br>

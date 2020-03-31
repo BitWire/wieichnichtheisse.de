@@ -66,10 +66,12 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <h3>Name:</h3>
+                <h2>Wie ich heisse:</h2>
                 <p><?php echo $name;?></p>
-                <h3>Alternative Schreibweisen:</h3>
-                <p><?php echo $altNames;?></p>
+                <h2>Wie andere meinen Namen schrieben:</h2>
+                @foreach ($altNames as $names)
+                    <p>{{ $names }}</p>
+                @endforeach
                 <a href="{{ url('') }}">zurück</a>
             </div>
         </div>

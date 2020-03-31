@@ -71,7 +71,7 @@ class PageController extends Controller
         $uuid = $request->route('uuid');
         $databaseService = new DatabaseService;
         $entry = $databaseService->read($uuid);
-        return View::make('show-page')->with(['name' => $entry['name'], 'altNames' => $entry['altNames']]);
+        return View::make('show-page')->with(['name' => $entry['name'], 'altNames' => json_decode($entry['altNames'])]);
     }
 
     public function deletePage(Request $request)

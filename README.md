@@ -1,9 +1,7 @@
-![Logo](logo.png)
+![Logo](assets/logo.png)
 
-<p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/badge/Laravel-v7.0-informational" alt="Latest Stable Version"></a>
-<a href="https://github.com/BitWire/wieichnichtheisse.de/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-v7.0-informational)
+![License](https://img.shields.io/badge/license-MIT-informational")
 
 ## [WieIchNichtHeisse.de](https://wieichnichtheisse.de)(beta)
 
@@ -11,7 +9,7 @@ WieIchNichtHeisse.de entstand durch einen Tweet von [Oğuz Yılmaz](https://twit
 
 ## Mithelfen
 
-Falls du mithelfen möchtest, erstelle ein Issue oder einen Pull Request. Jede Hilfe ist willkommen :) 
+Falls du mithelfen möchtest, erstelle ein Issue oder einen Pull Request. Ich bin für jede hilfe dankbar! :) 
 ## Code of Conduct
 
 Um sicher zu stellen, dass dieses Projekt offen für so viele Menschen wie möglich ist, halte dich bitte an den [Code of Conduct](https://queer-code.org/coc.html) des Queer Codes.
