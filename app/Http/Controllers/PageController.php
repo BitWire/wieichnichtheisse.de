@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Webpatser\Uuid\Uuid;
 use App\Services\DatabaseService;
+use Illuminate\Support\Facades\Cookie;
 
 class PageController extends Controller
 {
@@ -34,9 +35,10 @@ class PageController extends Controller
             $content['altNames'][$key] = strip_tags($value);
         }
         $uuid = $databaseService->create($content);
+        Cookie::queue('uuid', $uuid, 25000);
         return View::make('save-page')->with(['uuid' => $uuid]);
     }
-    
+
     public function updatePage(Request $request)
     {
         $databaseService = new DatabaseService;
@@ -60,6 +62,7 @@ class PageController extends Controller
                 Response::HTTP_NOT_FOUND
             );
         }
+        Cookie::queue('uuid', $uuid, 25000);
         return View::make('save-page')->with(['uuid' => $uuid]);
     }
 
